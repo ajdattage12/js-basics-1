@@ -11,15 +11,17 @@
 
 //CODE HERE
 
-var gitDefinition === ""
+var gitDefinition = "Git is a version contorl system. It allows you to save and track changes to files you create." 
 
-//////////////////PROBLEM 2////////////////////
+//////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
     It should be a string containing your best definition of what GitHub is.
 */
 
 //CODE HERE
+
+var gitHubDefinition = "GitHub is a website that allows users to put Git onto the cloud."
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -37,6 +39,10 @@ var gitDefinition === ""
 
 //CODE HERE
 
+let init = "initialize or create a new repo" 
+init = "git init"  
+
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -44,6 +50,8 @@ var gitDefinition === ""
 */
 
 //CODE HERE
+let clone = "creates a copy of an exisiting repo"
+clone = "git clone"
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -53,6 +61,10 @@ var gitDefinition === ""
 
 //CODE HERE
 
+let status = "allows you to check the status of your git"
+status = "git status"
+//I can't figure out why VS keeps putting a line through "Status". Sorry!
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -60,7 +72,8 @@ var gitDefinition === ""
 */
 
 //CODE HERE
-
+let add = "Using this function allows you to add all of your files to be tracked"
+add = "git add ." 
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -68,7 +81,8 @@ var gitDefinition === ""
 */
 
 //CODE HERE
-
+let commit = "Creates a snapshot or copy of the files"
+commit = "git commit -m 'Your message here'" 
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -76,4 +90,6 @@ var gitDefinition === ""
     following the guidelines above to describe the push command.
 */
 
+let push = "Using this functions allows you to push your files to GitHub"
+push = "git push"
 //CODE HERE
