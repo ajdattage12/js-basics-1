@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+var gitDefinition === ""
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
